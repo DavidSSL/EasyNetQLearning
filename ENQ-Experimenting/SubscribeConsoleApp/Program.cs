@@ -13,8 +13,9 @@ namespace SubscribeConsoleAppNamespace
             {
                 bus.Subscribe<MyMessage>("SubscribeConsoleAppId"
                     , msg => Console.WriteLine(msg.Text));
+                
+                Console.ReadKey();
             }
-            Console.ReadKey();
         }
     }
 }
