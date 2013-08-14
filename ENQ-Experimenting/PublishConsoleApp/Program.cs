@@ -19,10 +19,10 @@ namespace PublishConsoleAppNamespace
                         {
                             var message = new MyMessage
                             {
-                                Text = "Hello Rabbit" 
+                                Text = "Hello Rabbit" + i
                             };
                           
-                            publishChannel.Publish((message.Text + i));
+                            publishChannel.Publish(message);
                         }
                     }
                 }
