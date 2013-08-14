@@ -18,8 +18,6 @@ namespace Publisher
                     {
                         publishChannel.Publish(message);
                     }
-                    //bus.Subscribe<MyMessage>("my_subscription_id", msg => Console.WriteLine(msg.Text));
-                    //Console.ReadKey();
                 }
                 catch (EasyNetQException)
                 {
