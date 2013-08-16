@@ -17,7 +17,7 @@ namespace SubscribeAsyncConsoleAppNamespace
             bus.SubscribeAsync<MyMessage>("SubscribeAsyncConsoleAppId", msg =>
                 new WebClient().DownloadStringTaskAsync(new Uri("http://ubuntu-12/"))
                 .ContinueWith(task =>
-                    logger.InfoWrite("Received '{0}', Downloaded{1}", msg.Text, task.Result))
+                    logger.InfoWrite("Received '{0}', Downloaded {1}", msg.Text, task.Result))
                 );
         }
     }

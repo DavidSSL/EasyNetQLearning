@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscribeWithLoggerConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscribeAsyncConsoleApp", "SubscribeAsyncConsoleApp\SubscribeAsyncConsoleApp.csproj", "{BD9219F1-EC40-4C81-A616-F4873B09C0E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestClosureConsoleApp", "RequestClosureConsoleApp\RequestClosureConsoleApp.csproj", "{7924AFBF-024A-44E5-90B5-D2EE386133B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseClosureConsoleApp", "ResponseClosureConsoleApp\ResponseClosureConsoleApp.csproj", "{DF4F5B96-63C1-4239-A6DB-CEC7ECE54FA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{BD9219F1-EC40-4C81-A616-F4873B09C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9219F1-EC40-4C81-A616-F4873B09C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9219F1-EC40-4C81-A616-F4873B09C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7924AFBF-024A-44E5-90B5-D2EE386133B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7924AFBF-024A-44E5-90B5-D2EE386133B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7924AFBF-024A-44E5-90B5-D2EE386133B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7924AFBF-024A-44E5-90B5-D2EE386133B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4F5B96-63C1-4239-A6DB-CEC7ECE54FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4F5B96-63C1-4239-A6DB-CEC7ECE54FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4F5B96-63C1-4239-A6DB-CEC7ECE54FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4F5B96-63C1-4239-A6DB-CEC7ECE54FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
